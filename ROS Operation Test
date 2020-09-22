@@ -1,0 +1,15 @@
+1. Terminal1
+$roscore
+=> control over the whole ROS system
+
+2. Terminal2
+$rosrun turtlesim turtle_teleop_key
+=> turtlesim_node in the turtlesim package will be executed
+
+3. Terminal3
+$rosrun turtlesim turtlesim_node
+=> turtle is moved by the arrow key 
+
+4. Terminal4
+$rqt_graph
+=>The result is hwon as a diagram of the information of currently running nodes 
